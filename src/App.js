@@ -8,8 +8,8 @@ function App() {
 
   return (
     <div className="App">
-    <CounterValue counter={counter} />
-    <CounterLogic setcounter={setCounter} counter={counter}/>
+    <CounterValue  />
+    <CounterLogic/>
     </div>
   );
 }
