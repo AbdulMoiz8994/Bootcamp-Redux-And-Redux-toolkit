@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import './App.css';
 // import {CounterLogic, CounterValue} from './Components/index'
 // import {CounterUI} from './Components/SimpleRedux/CounterUI'
@@ -8,9 +8,10 @@ import './App.css';
 
 
 // simple Redux 2
-import {CounterDispatch} from './Components/ReduxSimple2/Feature/CounterDisp'
-import {CounterUi} from './Components/ReduxSimple2/Feature/CounterUi'
+// import {CounterDispatch} from './Components/ReduxSimple2/Feature/CounterDisp'
+// import {CounterUi} from './Components/ReduxSimple2/Feature/CounterUi'
 
+import {FormUi} from './Components/TodoAppReduxToolKit/Feature/FormUi'
 
 function App() {
 
@@ -24,11 +25,11 @@ function App() {
     {/* <ActAndDisp/> */}
     {/* <CounterLogic/>
     <CounterValue/> */}
-
+{/* 
 <CounterUi/>
-<CounterDispatch/>
+<CounterDispatch/> */}
 
-
+<FormUi/>
     </div>
   );
 }
